@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T07:46:28.200Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="9QpBBMJmiCJ6cWZ9FoIz" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T07:51:46.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="dnkI0zDgZeCZUD0mjWA2" version="24.2.1" type="github">
   <diagram name="Page-1" id="FRtGShZ57Fti__7gciMU">
     <mxGraphModel dx="1003" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="280" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--3" value="Token Smart Contract" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="280" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67tAdpOIN6ajgWWRxLX--4" target="67tAdpOIN6ajgWWRxLX--3">
           <mxGeometry relative="1" as="geometry" />
@@ -29,10 +29,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--4" value="Background&lt;div&gt;workers&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="200" width="80" height="80" as="geometry" />
+          <mxGeometry x="430" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--5" value="Vesting Smart&lt;div&gt;Contract&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="430" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="67tAdpOIN6ajgWWRxLX--6" target="67tAdpOIN6ajgWWRxLX--2">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +49,7 @@
         <mxCell id="67tAdpOIN6ajgWWRxLX--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="67tAdpOIN6ajgWWRxLX--7" target="67tAdpOIN6ajgWWRxLX--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67tAdpOIN6ajgWWRxLX--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="67tAdpOIN6ajgWWRxLX--7" target="67tAdpOIN6ajgWWRxLX--5">
+        <mxCell id="67tAdpOIN6ajgWWRxLX--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="67tAdpOIN6ajgWWRxLX--7" target="67tAdpOIN6ajgWWRxLX--5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--7" value="ExAdmin&lt;div&gt;Panel&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -57,6 +57,27 @@
         </mxCell>
         <mxCell id="67tAdpOIN6ajgWWRxLX--16" value="SQL Storage" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="280" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--19" value="" style="swimlane;startSize=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="200" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--21" value="Frontend" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="67tAdpOIN6ajgWWRxLX--19">
+          <mxGeometry y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--20" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--23" value="" style="swimlane;startSize=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="300" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--24" value="Backend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="67tAdpOIN6ajgWWRxLX--23">
+          <mxGeometry x="180" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--28" value="" style="swimlane;startSize=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="67tAdpOIN6ajgWWRxLX--30" value="Smart contracts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="67tAdpOIN6ajgWWRxLX--28">
+          <mxGeometry x="300" y="10" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
